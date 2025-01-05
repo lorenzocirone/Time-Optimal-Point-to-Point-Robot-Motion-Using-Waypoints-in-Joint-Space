@@ -41,7 +41,6 @@ def inverse_dynamics_2R(q, qd, qdd):
     # Extract joint angles, velocities, and accelerations
     q1, q2 = q
     q1d, q2d = qd
-    d1 = 0.35
     q1dd, q2dd = qdd
     
     # Mass matrix M(q)
